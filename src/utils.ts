@@ -7,13 +7,11 @@ import { existsSync } from "node:fs";
  * @returns the value with in kebab case
  */
 export const hyphenate = (variable: string): string =>
-  variable.replace(/([a-z])([A-Z])/g, "$1-$2").toLowerCase();
+  variable.replaceAll(/([a-z])([A-Z])/g, "$1-$2").toLowerCase();
 
 /**
  * Determines if the file exists
  * @param file the path of the file to be tested.
  */
-export const fileExists = (file: string): boolean => {
-  // eslint-disable-next-line security/detect-non-literal-fs-filename
-  return !!existsSync(file);
-};
+// eslint-disable-next-line security/detect-non-literal-fs-filename
+export const fileExists = (file: string): boolean => !!existsSync(file);
