@@ -1,6 +1,6 @@
 {
   "name": "node-qpdf-commonjs",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "description": "A Content Preserving transformations on PDFs wrapped around QPDF",
   "keywords": [
     "pdf",
@@ -27,7 +27,7 @@
     "url": "git+https://github.com/yogeshhrathod/node-qpdf-commonjs.git"
   },
   "license": "MIT",
-  "author": "Kyle McNally <kyle@kmcnally.net>, Yogesh Rathod <yrathod33@gmail.com>",
+  "author": "Kyle McNally <kyle@kmcnally.net>, Yogesh Rathod <yrathod33@gmail.com>, Neeraj Kulkarni <nvkulkarni.1108@gmail.com>",
   "exports": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
