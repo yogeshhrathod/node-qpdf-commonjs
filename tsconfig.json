@@ -3,8 +3,8 @@
   "compilerOptions": {
     "declaration": true,
     "exactOptionalPropertyTypes": false,
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
     "outDir": "dist",
     "sourceMap": true
   },

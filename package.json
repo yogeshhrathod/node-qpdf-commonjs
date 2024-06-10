@@ -1,5 +1,5 @@
 {
-  "name": "node-qpdf2",
+  "name": "node-qpdf-commonjs",
   "version": "6.0.0",
   "description": "A Content Preserving transformations on PDFs wrapped around QPDF",
   "keywords": [
@@ -18,17 +18,16 @@
     "rc4-128",
     "rc4-40"
   ],
-  "homepage": "https://github.com/Sparticuz/node-qpdf2",
+  "homepage": "https://github.com/yogeshhrathod/node-qpdf-commonjs",
   "bugs": {
-    "url": "https://github.com/Sparticuz/node-qpdf2/issues"
+    "url": "https://github.com/yogeshhrathod/node-qpdf-commonjs/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sparticuz/node-qpdf2.git"
+    "url": "git+https://github.com/yogeshhrathod/node-qpdf-commonjs.git"
   },
   "license": "MIT",
-  "author": "Kyle McNally <kyle@kmcnally.net>",
-  "type": "module",
+  "author": "Kyle McNally <kyle@kmcnally.net>, Yogesh Rathod <yrathod33@gmail.com>",
   "exports": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
